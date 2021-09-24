@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+body {
+    background-image: url("https://papers.co/wallpaper/papers.co-vv50-light-moving-dot-white-line-pattern-background-blue-25-wallpaper.jpg");
+    background-clip: content-box;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.pageBody {
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+    max-width: 60vw;
+    min-height: 97vh;
+    margin: 0 20vw;
+    background-color: rgba(255, 255, 255, 0.65);
+    padding: 4vh 4vw;
+}
+
+#input-block {
+    position: relative;
+    left: 40px;
+    top: 20px;
+    border: solid rgb(220, 220, 220) 1px;
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 50px;
+    width: 40vw;
+}
+
+#input-task {
+
+    border: solid rgba(255, 255, 255, 0.4) 1px;
+    border-radius: 0;
+    min-height: 40px;
+    width: 30vw;
+    font-size: 20px;
+    background-color: rgba(222, 222, 222, 0.34);
+    transition: background-color .5s ease;
+}
+
+#input-task:hover {
+    background-color: rgba(222, 222, 222, 0.7);
+
+}
+
+.task {
+    font-size: 17px;
+}
+
+.decorate {
+    border: solid #dcdcdc 1px;
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 50px;
+    width: 40vw;
+    background-color: rgba(222, 222, 222, 0.34);
+}
+
+
+#heading {
+    color: #000000;
+    font-size: 4vh;
+    width: 40vw;
+    text-align: center;
+    padding: 0.7vh 0 ;
+    position: relative;
+    top: 45px;
+    left: -45px
+
+}
+
+
+html {
+    font-family: 'PT Sans', sans-serif;
+}
+
+.delete-btn {
+    border-radius: 15%;
+    background-color: rgba(220, 0, 0, 0.8);
+    border: #ececec 1px solid;
+    text-align: center;
+    font-size: 3vh;
+    height: 5vh;
+    width: 5vh;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    transition: all .5s ease;
+
+}
+
+.delete-btn:hover {
+    background-color: #e5e5e5;
+    color: #000000;
+    border-color: black;
+    transform: rotateZ(180deg);
+}
+
+#add-task-button {
+    border-radius: 15%;
+    background-color: rgba(29, 220, 0, 0.8);
+    border: #ececec 1px solid;
+    text-align: center;
+    font-size: 4vh;
+    height: 5vh;
+    width: 5vh;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    transition: all .5s ease;
+
+}
+
+#add-task-button:hover {
+    background-color: #e5e5e5;
+    color: #000000;
+    border-color: black;
+    transform: rotateZ(90deg);
+}
+
+.check-box {
+    height: 5vh;
+    width: 5vh;
+}
+
+.finished {
+    text-decoration: line-through;
+}
+
